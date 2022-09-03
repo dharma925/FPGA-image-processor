@@ -1,0 +1,16 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: E:/Simulations/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 51058ec269c541e0b80deb132a3f4194 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 24 differs from formal bit length 1 for port 'in_read' [C:/Users/Dharma/Desktop/InternPreps/Projects/FPGA_ImageProc/FPGA_ImageProc.srcs/sources_1/new/control.v:214]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 24 for port 'out_data' [C:/Users/Dharma/Desktop/InternPreps/Projects/FPGA_ImageProc/FPGA_ImageProc.srcs/sources_1/new/control.v:215]
+WARNING: [VRFC 10-3091] actual bit length 24 differs from formal bit length 1 for port 'in_read' [C:/Users/Dharma/Desktop/InternPreps/Projects/FPGA_ImageProc/FPGA_ImageProc.srcs/sources_1/new/control.v:223]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 24 for port 'out_data' [C:/Users/Dharma/Desktop/InternPreps/Projects/FPGA_ImageProc/FPGA_ImageProc.srcs/sources_1/new/control.v:224]
+WARNING: [VRFC 10-3091] actual bit length 24 differs from formal bit length 1 for port 'in_read' [C:/Users/Dharma/Desktop/InternPreps/Projects/FPGA_ImageProc/FPGA_ImageProc.srcs/sources_1/new/control.v:232]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 24 for port 'out_data' [C:/Users/Dharma/Desktop/InternPreps/Projects/FPGA_ImageProc/FPGA_ImageProc.srcs/sources_1/new/control.v:233]
+WARNING: [VRFC 10-3091] actual bit length 24 differs from formal bit length 1 for port 'in_read' [C:/Users/Dharma/Desktop/InternPreps/Projects/FPGA_ImageProc/FPGA_ImageProc.srcs/sources_1/new/control.v:241]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 24 for port 'out_data' [C:/Users/Dharma/Desktop/InternPreps/Projects/FPGA_ImageProc/FPGA_ImageProc.srcs/sources_1/new/control.v:242]
+Completed static elaboration
+ERROR: [XSIM 43-4287] "C:/Users/Dharma/Desktop/InternPreps/Projects/FPGA_ImageProc/FPGA_ImageProc.srcs/sim_1/new/test.v" Line 70. Undefined system task '$fscan'

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1661375653">
+  <File Type="ROUTE-PWR" Name="image_proc_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="image_proc.tcl"/>
+  <File Type="BITSTR-MMI" Name="image_proc.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="image_proc_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="image_proc_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="image_proc_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="image_proc_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="image_proc_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="image_proc_opt.dcp"/>
+  <File Type="OPT-DRC" Name="image_proc_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="image_proc.hwdef"/>
+  <File Type="PWROPT-DCP" Name="image_proc_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="image_proc_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="image_proc_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="image_proc_placed.dcp"/>
+  <File Type="PLACE-IO" Name="image_proc_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="image_proc_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="image_proc_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="image_proc_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="image_proc_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="image_proc_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="image_proc_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="image_proc.bin"/>
+  <File Type="PLACE-TIMING" Name="image_proc_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="image_proc_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="image_proc.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="image_proc_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="image_proc_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="image_proc_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="image_proc.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="image_proc_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="image_proc_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="image_proc_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="image_proc_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="image_proc_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="image_proc_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="image_proc_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="image_proc_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="image_proc_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="image_proc_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="image_proc_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="image_proc_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="image_proc_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="image_proc_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="image_proc_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="image_proc_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="image_proc_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="image_proc_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="image_proc_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="image_proc_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="image_proc_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="image_proc_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="image_proc_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="image_proc_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="image_proc_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="image_proc_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="image_proc_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="image_proc.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="image_proc_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="image_proc_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="image_proc.nky"/>
+  <File Type="BITSTR-BMM" Name="image_proc_bd.bmm"/>
+  <File Type="PDI-FILE" Name="image_proc.pdi"/>
+  <File Type="RCFI_FILE" Name="image_proc.rcfi"/>
+  <File Type="CFI_FILE" Name="image_proc.cfi"/>
+  <File Type="RNPI_FILE" Name="image_proc.rnpi"/>
+  <File Type="NPI_FILE" Name="image_proc.npi"/>
+  <File Type="RBD_FILE" Name="image_proc.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="image_proc.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="image_proc.sysdef"/>
+  <File Type="BG-BGN" Name="image_proc.bgn"/>
+  <File Type="BG-DRC" Name="image_proc.drc"/>
+  <File Type="RDI-RDI" Name="image_proc.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/control.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/convolution.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/linebuffer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/image_proc.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../../users/dharma/desktop/internpreps/projects/fpga_imageproc/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="image_proc"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="output_buffer"/>
+</GenRun>
